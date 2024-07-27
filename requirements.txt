@@ -1,0 +1,28 @@
+# Data Handling
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+xgboost
+lightgbm
+
+# Hyperparameter Tuning
+# test
+optuna
+
+# Logging
+loguru
+
+# Configuration Management
+python-dotenv
+
+# Command Line Interface
+click
+
+# Testing
+pytest
+pytest-cov
+
+# Miscellaneous
+joblib

@@ -1,0 +1,43 @@
+# Explanation of Files and Directories
+
+- **automl/**: Main application directory.
+  - **__init__.py**: Initialize the application.
+  - **main.py**: Entry point for running the application.
+  - **config.py**: Configuration settings for the application.
+  - **data/**: Data loading and preprocessing modules.
+    - **data_loader.py**: Module to load data from various sources (CSV, Excel, etc.).
+    - **data_preprocessor.py**: Module to preprocess and clean data.
+  - **features/**: Feature engineering and selection modules.
+    - **feature_engineer.py**: Module for feature engineering.
+    - **feature_selector.py**: Module for feature selection.
+  - **models/**: Model training and evaluation modules.
+    - **model_trainer.py**: Module to train machine learning models.
+    - **model_evaluator.py**: Module to evaluate machine learning models.
+  - **hyperparameter_tuning/**: Hyperparameter tuning module.
+    - **tuner.py**: Module to perform hyperparameter tuning.
+  - **deployment/**: Model deployment and monitoring modules.
+    - **model_deployer.py**: Module to deploy trained models.
+    - **model_monitor.py**: Module to monitor deployed models.
+  - **utils/**: Utility functions and helpers.
+    - **decorators.py**: Custom decorators (e.g., for logging).
+    - **logger.py**: Logging setup.
+    - **helpers.py**: Helper functions.
+  - **cli/**: Command-line interface for user interaction.
+    - **cli_app.py**: CLI application logic.
+  - **tests/**: Unit and integration tests.
+    - **test_data_loader.py**: Tests for data loading.
+    - **test_data_preprocessor.py**: Tests for data preprocessing.
+    - **test_feature_engineer.py**: Tests for feature engineering.
+    - **test_feature_selector.py**: Tests for feature selection.
+    - **test_model_trainer.py**: Tests for model training.
+    - **test_model_evaluator.py**: Tests for model evaluation.
+    - **test_tuner.py**: Tests for hyperparameter tuning.
+    - **test_model_deployer.py**: Tests for model deployment.
+    - **test_model_monitor.py**: Tests for model monitoring.
+    - **test_helpers.py**: Tests for helper functions.
+  - **data_samples/**: Sample data files.
+    - **sample_data.csv**: Sample CSV file containing data.
+- **requirements.txt**: List of dependencies.
+- **.env**: Environment variables.
+- **.gitignore**: Git ignore file.
+- **README.md**: Project documentation.

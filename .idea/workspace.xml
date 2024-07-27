@@ -4,14 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a81749c-0408-46ef-8859-7384af07c69e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.py" afterDir="false" />
+    <list default="true" id="4a81749c-0408-46ef-8859-7384af07c69e" name="Changes" comment="Updated the initial code">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/cli/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/cli/cli_app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/data/data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/data/data_preprocessor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/deployment/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/deployment/model_deployer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/deployment/model_monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/features/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/features/feature_engineer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/features/feature_selector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/hyperparameter_tuning/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/hyperparameter_tuning/tuner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/models/model_evaluator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/models/model_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/utils/decorators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/utils/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/automl/utils/logger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_samples/sample_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_data_preprocessor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_feature_engineer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_feature_selector.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_model_deployer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_model_evaluator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_model_monitor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_model_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_tuner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +121,72 @@
       <option name="presentableId" value="Default" />
       <updated>1722103718780</updated>
     </task>
+    <task id="LOCAL-00001" summary="Updated the initial code">
+      <option name="closed" value="true" />
+      <created>1722104889213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722104889213</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Paths">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="file:$PROJECT_DIR$/requirements.txt" />
+                  <option value="dir:C:/Users/GopinathPandit/OneDrive - ConcertAI/Python/Pycharm_projects/AUTO_ML_PROJECT/pythonProject/automl" />
+                  <option value="file:$PROJECT_DIR$/template.py" />
+                  <option value="dir:C:/Users/GopinathPandit/OneDrive - ConcertAI/Python/Pycharm_projects/AUTO_ML_PROJECT/pythonProject/tests" />
+                  <option value="dir:C:/Users/GopinathPandit/OneDrive - ConcertAI/Python/Pycharm_projects/AUTO_ML_PROJECT/pythonProject/venv" />
+                  <option value="dir:C:/Users/GopinathPandit/OneDrive - ConcertAI/Python/Pycharm_projects/AUTO_ML_PROJECT/pythonProject/data_samples" />
+                  <option value="file:$PROJECT_DIR$/.env" />
+                  <option value="file:$PROJECT_DIR$/README.md" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="file:$PROJECT_DIR$/requirements.txt" />
+                        <option value="dir:C:/Users/GopinathPandit/OneDrive - ConcertAI/Python/Pycharm_projects/AUTO_ML_PROJECT/pythonProject/automl" />
+                        <option value="file:$PROJECT_DIR$/template.py" />
+                        <option value="dir:C:/Users/GopinathPandit/OneDrive - ConcertAI/Python/Pycharm_projects/AUTO_ML_PROJECT/pythonProject/tests" />
+                        <option value="dir:C:/Users/GopinathPandit/OneDrive - ConcertAI/Python/Pycharm_projects/AUTO_ML_PROJECT/pythonProject/venv" />
+                        <option value="dir:C:/Users/GopinathPandit/OneDrive - ConcertAI/Python/Pycharm_projects/AUTO_ML_PROJECT/pythonProject/data_samples" />
+                        <option value="file:$PROJECT_DIR$/.env" />
+                        <option value="file:$PROJECT_DIR$/README.md" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated the initial code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the initial code" />
   </component>
 </project>
