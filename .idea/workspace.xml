@@ -5,45 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a81749c-0408-46ef-8859-7384af07c69e" name="Changes" comment="Updated the initial code">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/cli/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/cli/cli_app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/data/data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/data/data_preprocessor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/deployment/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/deployment/model_deployer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/deployment/model_monitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/features/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/features/feature_engineer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/features/feature_selector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/hyperparameter_tuning/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/hyperparameter_tuning/tuner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/models/model_evaluator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/models/model_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/utils/decorators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/utils/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/automl/utils/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_samples/sample_data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_data_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_data_preprocessor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_feature_engineer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_feature_selector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_model_deployer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_model_evaluator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_model_monitor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_model_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_tuner.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automl/data/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/automl/data/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automl/features/feature_engineer.py" beforeDir="false" afterPath="$PROJECT_DIR$/automl/features/feature_engineer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automl/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/automl/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_samples/sample_data.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,12 +37,35 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "Python.template.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/automl" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/automl/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="template" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -101,6 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.template" />
       </list>
     </recent_temporary>
@@ -129,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722104889213</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated the initial code">
+      <option name="closed" value="true" />
+      <created>1722105353508</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722105353508</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
